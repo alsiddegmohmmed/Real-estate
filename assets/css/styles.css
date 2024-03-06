@@ -703,25 +703,180 @@ margin-bottom: 1.25rem;
   column-gap: 0.75rem;
   margin-bottom: 1.25rem;
 }
-/* im here at 1:22:48  */
+
+.contact__card i {
+  padding: 6px; 
+  background-color: var(--first-color-lighten);
+  border-radius: 6px;
+  font-size: 1.25rem;
+  color: var(--first-color);
+
+}
 
 
+.contact__card-title {
+  font-size: var(--normal-font-size);
 
+}
 
+.contact__card-description {
+  font-size: var(--smaller-font-size);
+  
+}
 
+.contact__card-button {
+  font-size: var(--small-font-size);
+  padding: 14px 0;
+  width: 100%;
+  border-radius: .25rem ;
+  background: var(--first-color-lighten);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  box-shadow: none;
 
+}
 
+.contact__card-button:hover {
+  background-color: var(--first-color);
+  color: #fff; 
 
+}
 
-
+.contact__card-box:hover {
+  box-shadow: 0 8px 24px hsla(288, 66%, 45%, .1 );
+}
 
 
 
 
 /*=============== SUBSCRIBE ===============*/
 
+.subscribe {
+  padding: 2.5rem 0;
 
+}
+
+.subscribe__container {
+  background-color: var(--first-color);
+  padding: 3rem 2rem; 
+  border-radius: 1.25rem;
+  border: 6px solid var(--first-color-light);
+  text-align: center;
+}
+
+.subscribe__title {
+  font-size: var(--h2-font-size);
+  color: #fff
+
+}
+
+.subscribe__description {
+  color: hsla(228, 90%, 92%);
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem; 
+}
+
+.subscribe__button {
+  border: 2px solid #fff;
+  background: var(--first-color-light);
+  font-size: var(--small-font-size);
+}
+
+.subscribe__button:hover {
+  background-color: var(--first-color);
+}
 /*=============== FOOTER ===============*/
+.footer__container {
+  row-gap: 2.5rem;
+}
+
+.footer__logo {
+  color: var(--first-color); 
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  margin-bottom: .75rem;
+
+}
+
+.footer__logo i {
+  font-size: 1.25rem;
+
+}
+
+.footer__description, 
+.footer__link {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+
+}
+
+.footer__content, 
+.footer__links {
+  display: grid;
+
+}
+
+
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem 4rem;
+}
+
+
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+
+}
+
+.footer__links {
+  row-gap: 0.5rem;
+}
+
+.footer__links {
+  color: var(--text-color);
+ /* continue from here 1:37:57  */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*=============== SCROLL BAR ===============*/
