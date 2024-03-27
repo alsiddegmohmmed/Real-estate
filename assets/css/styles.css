@@ -138,7 +138,7 @@ body.dark-theme {
 
 .dark-theme .nav__menu,
 .daek-theme .home__img, 
-.dark-theme .pupular__card:hover,
+.dark-theme .popular__card:hover,
 .dark-theme .value__img, 
 .dark-theme .accordion-open, 
 .dark-theme .accordion-open .value__accordion-icon, 
@@ -393,7 +393,7 @@ margin-bottom: 1.25rem;
 
 .home__value {
   display: flex;
-  column-gap: 3.5rem;
+  column-gap: 2.5rem;
 }
 
 
@@ -484,6 +484,8 @@ margin-bottom: 1.25rem;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem 2rem; 
   justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .logos__img img {
@@ -494,7 +496,7 @@ margin-bottom: 1.25rem;
 }
 
 .logos__img img:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 /*=============== POPULAR ===============*/
 .popular__container {
@@ -505,10 +507,10 @@ margin-bottom: 1.25rem;
 .popular__card {
   width: 290px;
   background-color: var(--container-color);
-  padding: .5rem .5rem 1.5rem;
+  padding: 0.5rem 0.5rem 1.5rem;
   border-radius: 1rem;
   margin: 0 auto;
-  transition: .4s;
+  transition: 0.4s;
 
 }
 
@@ -1092,7 +1094,7 @@ margin-bottom: 1.25rem;
   .logos__container {
     gap: 2rem 1rem; 
   }
-  .pupular__card {
+  .popular__card {
     width: 230px ;
     padding: .5rem .5rem .75rem;
   }
@@ -1251,6 +1253,185 @@ margin-bottom: 1.25rem;
     color: var(--first-color);
   }
 
+
+  .home {
+    padding-bottom: 0;
+  }
+
+  .home__container {
+    padding-top: 5rem;
+    column-gap: 2rem;
+
+  }
+
+  .home__data {
+    padding-bottom: 4rem;
+  }
+
+  .home__title {
+    margin-bottom: 2rem;
+  }
+
+  .home__description, 
+  .home__search {
+    margin-bottom: 3rem;
+
+  }
+
+  .home__value {
+    column-gap: 3.5rem ;
+  }
+ 
+  .home__orbe {
+    width: 504px;
+    height: 611px ;
+    border-radius: 256px 256px 0 0;
+  }
+
+  .home__img {
+    width: 472px;
+    height: 634px;
+    border-radius: 236px 236px 12px 12px;
+    bottom: -2.5rem;
+  }
+
+  .logos__img img {
+    height: 100px ;
+  }
+
+  .popular__container {
+    padding-top: 3rem;
+  }
+
+  .popular__card { 
+  width: 320px;
+  padding: 0.75rem 0.75rem 2rem ; 
+  }
+
+  .popular__data {
+    padding: 0 0.25rem 0 0.75rem;
+  }
+
+  .value__container
+  .contact__container {
+
+    align-items: flex-start;
+    column-gap: 5rem;
+  }
+
+
+  .value__orbe 
+  .contact__orbe{
+    width: 501px ;
+    height: 641px ;
+    border-radius: 258px 258px 16px 16px ;
+  }
+
+  .value__img
+  .contact__img {
+    width: 461px;
+    height: 601px ;
+    border-radius: 238px 238px 12px 12px;
+  }
+
+  /* 2:19:39  */
+  .value__img img 
+  .contact__img img {
+    max-width: initial; 
+    width: 490px; 
+  }
+
+
+  .value__description
+  .contact___description {
+    font-size: var(--normal-font-size);
+    margin: 2.5rem;
+  }
+  .value__description-title {
+    font-size: var(--normal-font-size);
+  }
+
+  .value__accordion-item {
+    padding: 1.25rem 1.25rem 1.25rem 1rem;
+  }
+
+  .vlaue__accordion-description {
+    padding-bottom: 1rem;
+    font-size: var(--small-font-size);
+  }
+
+  .contact__card {
+    grid-template-columns: repeat(2, 200px);
+
+  }
+
+  .contact__card-box {
+    padding: 28px 1.5rem 1.5rem ;
+  }
+
+  .subscribe__container {
+    padding: 4rem 10rem 4.5rem ;
+    border-radius: 2rem;
+    border: 12px solid var(--first-color-light);
+  }
+
+  .subscribe__title {
+    font-size: 2.5rem ;
+    margin-bottom: 1.5rem ;
+  }
+
+  .subscribe__description {
+    font-size: var(--normal-font-size);
+    padding: 0 8rem ;
+  }
+
+  .subscribe__button {
+    font-size: var(--normal-font-size);
+
+  }
+
+  .footer__content {
+    grid-template-columns: repeat( 4, max-content);
+  }
+  .footer__title {
+    margin-bottom: 1.5rem;
+
+  }
+  .footer__links {
+    row-gap: 1rem-;
+  }
+  .footer__info {
+    flex-direction: row ;
+    justify-content: space-between;
+    padding-bottom: 2rem ;
+  }
+
+  .show-scroll {
+    bottom: 3rem; 
+    right: 3rem ; 
+  }
 }
 
 /* For 2K & 4K resolutions */
+
+@media screen and  (min-width: 1040px){
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__container {
+    column-gap: 4rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
