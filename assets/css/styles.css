@@ -189,7 +189,7 @@ body.dark-theme {
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 4.5rem 13 2rem;
 }
 
 .section__title {
@@ -480,18 +480,21 @@ margin-bottom: 1.25rem;
 }
 /*=============== LOGOS ===============*/
 .logos__container {
-  padding-top: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem 2rem; 
   justify-content: center;
   /* margin-left: auto;
   margin-right: auto; */
+  text-align: center; 
 }
 
 .logos__img img {
   height: 60px;
   opacity: .2;
   transition: .3s;
+  
 
 }
 
